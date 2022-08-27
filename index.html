@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo data storage component</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <main>
+    <section class="card card__fylo">
+      <img class="card__fylo--logo" src="images/logo.svg" alt="">
+      <div class="card__fylo--icons">
+        <img class="card__fylo--document" src="images/icon-document.svg" alt="#">
+        <img class="card__fylo--folder" src="images/icon-folder.svg" alt="#">
+        <img class="card__fylo--upload" src="images/icon-upload.svg" alt="#">
+      </div>
+    </section>
+
+    <section class="card card__storage">
+      <p class="card__storage--used">You’ve used <b>815 GB</b> of your storage</p>
+      <input class="card__storage--range" type="range">
+      <div class="card__storage--left">
+        <h1>185 <span>GB Left</span></h1>
+      </div>
+      <div class="card__storage--space">
+        <b>0 GB </b>
+        <b>1000 GB</b>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
